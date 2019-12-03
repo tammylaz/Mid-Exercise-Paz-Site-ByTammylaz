@@ -2,7 +2,7 @@ body{
     margin: 0;
     text-align: right;
     direction: rtl;
-    
+    font-family: Arial Hebrew, Arial;
 }
 * {
     box-sizing: border-box;
@@ -30,7 +30,7 @@ header {
   .logo {
     width: 142px;
     height: 93px;
-    background-color: lightgoldenrodyellow;
+    background-image: url('images/paz_logo.png');
     position: absolute;
     top: 30px;
     right: 0;
@@ -43,9 +43,6 @@ header {
     position: absolute;
     left: 0;
 
-
-
-
 }
   .container {
     width: 900px;
@@ -56,8 +53,6 @@ header {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    
-    
 }
 .main-top {
     border: 1px solid rgb(25, 0, 255);
@@ -66,17 +61,36 @@ header {
     justify-content: space-evenly;
     
 }
-.main-top > div {
+.main-top > #div1 {
+  background-image: url('images/1908364606615453350.JPG');;
   background-color: #f1f1f1;
-  
   margin: 10px;
   text-align: center;
   line-height: 75px;
   font-size: 30px;
   width: 293px;
   height: 355px;
-  
 }
+.main-top > #div2 {
+    background-image: url('images/Picture-046410251500.jpg');;
+    background-color: #f1f1f1;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    width: 293px;
+    height: 355px;
+  }
+  .main-top > #div3 {
+    background-image: url('images/פזקר_-291_354410564000.jpg');;
+    background-color: #f1f1f1;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+    width: 293px;
+    height: 355px;
+  }
 .main-bottom {
     border: 1px solid rgb(255, 0, 170);
     display: flex;
@@ -110,4 +124,26 @@ header {
     margin: auto;
     padding: 10px;
     text-align: center;
+    position: relative;
+    display: flex;
+    
   }
+  li a {
+    list-style: none;
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
+    text-decoration: none;
+  }
+    .line {
+    list-style: none;
+    color: #fff;
+    position: absolute;
+    bottom: 15px;
+    }
+  .facebook {
+    list-style: none;
+    position: absolute;
+    bottom: 15px;
+    margin: 5px;
+}
