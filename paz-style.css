@@ -23,6 +23,15 @@ header {
     margin: auto;
     padding: 10px;
     text-align: center;
+    position: relative;
+  }
+  .logo {
+    width: 142px;
+    height: 93px;
+    background-color: lightgoldenrodyellow;
+    position: absolute;
+    top: 30px;
+    right: 0;
   }
 
   .container {
