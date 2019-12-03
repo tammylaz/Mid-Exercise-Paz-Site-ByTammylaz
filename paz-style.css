@@ -24,6 +24,8 @@ header {
     padding: 10px;
     text-align: center;
     position: relative;
+    display: flex;
+
   }
   .logo {
     width: 142px;
@@ -33,7 +35,18 @@ header {
     top: 30px;
     right: 0;
   }
+.left-header {
+    border: 1px solid rgb(255, 217, 0);
+    width: 700px;
+    height: 90px;
+    flex-grow: 1;
+    position: absolute;
+    left: 0;
 
+
+
+
+}
   .container {
     width: 900px;
     margin: auto;
@@ -55,7 +68,7 @@ header {
 }
 .main-top > div {
   background-color: #f1f1f1;
-  width: 100px;
+  
   margin: 10px;
   text-align: center;
   line-height: 75px;
