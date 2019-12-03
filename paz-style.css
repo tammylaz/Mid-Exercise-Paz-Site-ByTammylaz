@@ -1,0 +1,16 @@
+body{
+    margin: 0;
+    text-align: right;
+    direction: rtl;
+}
+* {
+    box-sizing: border-box;
+}
+header {
+    display: block;  
+    background-color: #3c9fe0;
+    font-size: 48px; 
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+  }
