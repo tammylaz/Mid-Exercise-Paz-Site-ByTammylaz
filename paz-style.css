@@ -20,11 +20,11 @@ header {
   .header {
     width: 900px;
     height: 106px;
-    border: 1px solid red;
     margin: auto;
     text-align: center;
     position: relative;
     display: flex;
+    
 
   }
   .logo {
@@ -37,22 +37,28 @@ header {
   }
 .left-header {
     border: 1px solid rgb(255, 217, 0);
-    width: 700px;
+    width: 800px;
     height: 90px;
     flex-grow: 1;
     position: absolute;
     left: 0;
+  
 }
   
 nav {
   font-size: 14px;
-  padding: 0 20px 0 20px;
+  position: absolute;
+  top: 60px;
+  left: 0px;
+
 }
 
 nav > ul {
   list-style: none;
   padding: 0;
-  margin: auto;
+  display: flex;
+  justify-content: flex-start;
+  
 }
 
 
@@ -63,15 +69,41 @@ nav > ul > li {
 nav > ul > li > a {
   display: block;
   text-decoration: none;
-  color: rgb(220, 241, 98);
-  padding: 15px;
-  font-family: arial;
-  font-size: 14px;
+  color: white;
+  font-size: 15px;
+  font-weight: bold;
+  
 }
   nav > ul > li > a:hover, .dropdown-content > a:hover {
-      background-color: rgb(8, 31, 46);
+      color: rgb(21, 98, 156);
+      font-weight: bold;
+    }
+    .dropdown {
+      position: relative;
+      display: inline-block;
+    }
+    
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      bottom: 50;
+      min-width: 160px;
+      background-color: #999;
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    .line-top {
+      width: 4px;
+      height: 21px;
+      margin: 0 16px;
+      background-image: url('images/menu_sep.png');
     }
 
+    .home-icon {
+      margin:0 16px;
+      
+    }
   .container {
     width: 900px;
     margin: auto;
@@ -82,14 +114,13 @@ nav > ul > li > a {
     flex-direction: column;
 }
 .main-top {
-    border: 1px solid rgb(25, 0, 255);
     display: flex;
     width: 900px;
     justify-content: space-between;
 }
 
 .main-top > #div1 {
-  background-image: url('images/1908364606615453350.JPG');;
+  background-image: url('images/1908364606615453350.JPG');
   background-color: #f1f1f1;
   border-bottom-right-radius: 20px;
   width: 293px;
@@ -98,11 +129,11 @@ nav > ul > li > a {
   align-items: flex-end;
 }
 .text-cont {
-  width: 228px;
-  height: 77px;
+  width: 248px;
+  height: 97px;
   background-color: rgba(131, 131, 128, 0.85);
   border-bottom-right-radius: 20px; 
-  margin: 5px;
+  margin: 7px;
 }
 .text-cont > h5 {
   margin: 5px;
@@ -115,23 +146,40 @@ nav > ul > li > a {
   color: #fff;
   font-size: 13px;
 }
+.text-cont > div {
+  float: left;
+  color: #fff;
+  font-size: 13px;
+}
+
+.white {
+  text-decoration: none;
+  font-size: 13px;
+  color: white;
+  
+}
+.blue-arrow {
+  margin-left: 5px;
+  
+}
+
 .main-top > #div2 {
     background-image: url('images/Picture-046410251500.jpg');;
     background-color: #f1f1f1;
     border-bottom-right-radius: 10%;
-    text-align: center;
-    line-height: 75px;
     width: 293px;
     height: 355px;
+    display: flex;
+    align-items: flex-end;
   }
   .main-top > #div3 {
     background-image: url('images/פזקר_-291_354410564000.jpg');;
     background-color: #f1f1f1;
     border-bottom-right-radius: 10%;
-    text-align: center;
-    line-height: 75px;
     width: 293px;
     height: 355px;
+    display: flex;
+    align-items: flex-end;
   }
 
   .main-bottom {
@@ -143,18 +191,11 @@ nav > ul > li > a {
 
 .main-bottom > .bg-bottom {
   background-image: url('images/small_cube_bg.png');
-  border-bottom-right-radius: 20px;
   width: 292px;
   height: 216px;
   padding: 10px;
 }
-.main-bottom > #div4 {
-    background-image: url('images/small_cube_bg.png');
-    border-bottom-right-radius: 20px;
-    width: 292px;
-    height: 216px;
-    padding: 10px;
-  }
+
 
   .text-cont4 {
     width: 228px;
@@ -166,18 +207,23 @@ nav > ul > li > a {
     margin: 5px;
     font-size: 14px;
     font-weight: bold;
+    color: rgb(83, 82, 82);
   }
   .bg-bottom > div {
     float: left;
     margin-top: 20px;
-
   }
-  #div4 > img {
-    margin: 5px;
+  .bg-bottom > img {
+    margin: 7px;
   }
-  .bg-bottom > a {
+  .grey {
     text-decoration: none;
-    font-size: 13px;
+    font-size: 14px;
+    color: gray;
+    
+  }
+  .yellow-arrow {
+    margin-left: 10px;
   }
   footer {
     width: 100%;
@@ -191,7 +237,6 @@ nav > ul > li > a {
   .footer {
     width: 900px;
     height: 38px;
-    border: 1px solid red;
     margin: auto;
     padding: 10px;
     position: relative;
@@ -202,7 +247,6 @@ nav > ul > li > a {
     width: 900px;
     list-style: none;
     display: flex;
-    border: 1px solid rgb(0, 255, 76);
     margin: auto;
   }
   li a {
