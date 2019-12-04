@@ -3,6 +3,7 @@ body{
     text-align: right;
     direction: rtl;
     font-family: Arial Hebrew, Arial;
+    font-size: 0.9em;
 }
 * {
     box-sizing: border-box;
@@ -14,7 +15,7 @@ header {
     background-image:url('images/header_bg.png');
     background-color: #999;
     top: 0px;
-    
+
   }
   .header {
     width: 900px;
@@ -123,27 +124,38 @@ header {
     border: 1px solid red;
     margin: auto;
     padding: 10px;
-    text-align: center;
     position: relative;
+    display: flex; 
+  }
+  .ul-footer {
+    padding: 0;
+    width: 900px;
+    list-style: none;
     display: flex;
-    
+    border: 1px solid rgb(0, 255, 76);
+    margin: auto;
   }
   li a {
-    list-style: none;
     color: #fff;
-    position: absolute;
     bottom: 15px;
     text-decoration: none;
+    margin-left: 2px;
+    margin-right: 2px;
   }
-    .line {
-    list-style: none;
-    color: #fff;
-    position: absolute;
+  .red-text {
+    color: red;
     bottom: 15px;
+    text-decoration: none;
+    margin-right: 2px;
+  }
+  .line {
+    color: #fff;
+    bottom: 15px;
+    margin-left: 2px;
+    margin-right: 2px;
     }
   .facebook {
-    list-style: none;
-    position: absolute;
     bottom: 15px;
-    margin: 5px;
+    margin-left: 2px;
+
 }
