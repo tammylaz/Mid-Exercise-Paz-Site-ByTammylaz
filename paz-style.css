@@ -106,19 +106,25 @@ header {
   }
 
   .main-bottom {
-    border: 1px solid rgb(25, 0, 255);
     display: flex;
     width: 900px;
     justify-content: space-between;
     margin-top: 10px;
   }
+
+.main-bottom > .bg-bottom {
+  background-image: url('images/small_cube_bg.png');
+  border-bottom-right-radius: 20px;
+  width: 292px;
+  height: 216px;
+  padding: 10px;
+}
 .main-bottom > #div4 {
-    background-image: url('images/cube_bg.png');
+    background-image: url('images/small_cube_bg.png');
     border-bottom-right-radius: 20px;
     width: 292px;
-    height: 169px;
-    display: flex;
-    align-items: flex-end;
+    height: 216px;
+    padding: 10px;
   }
 
   .text-cont4 {
@@ -127,19 +133,21 @@ header {
     background-image: url('images/paz_250x110059890678.jpg');
     margin: 5px;
   }
-  #div4 > h5 {
+  .bg-bottom > h5 {
     margin: 5px;
-    color: #fff;
     font-size: 14px;
     font-weight: bold;
   }
+  .bg-bottom > div {
+    float: left;
+    margin-top: 20px;
 
+  }
   #div4 > img {
     margin: 5px;
   }
-  #div4 > p > a {
-    margin: 5px;
-    color: #fff;
+  .bg-bottom > a {
+    text-decoration: none;
     font-size: 13px;
   }
   footer {
