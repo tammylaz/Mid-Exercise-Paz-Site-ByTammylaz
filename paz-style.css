@@ -22,7 +22,6 @@ header {
     height: 106px;
     border: 1px solid red;
     margin: auto;
-    padding: 10px;
     text-align: center;
     position: relative;
     display: flex;
@@ -43,13 +42,11 @@ header {
     flex-grow: 1;
     position: absolute;
     left: 0;
-
 }
   .container {
     width: 900px;
     margin: auto;
-    border: 1px solid rgb(81, 255, 0);
-    margin-top: 120px;
+    margin-top: 135px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -59,55 +56,91 @@ header {
     border: 1px solid rgb(25, 0, 255);
     display: flex;
     width: 900px;
-    justify-content: space-evenly;
-    
+    justify-content: space-between;
 }
+
 .main-top > #div1 {
   background-image: url('images/1908364606615453350.JPG');;
   background-color: #f1f1f1;
-  margin: 10px;
-  text-align: center;
-  line-height: 75px;
-  font-size: 30px;
+  border-bottom-right-radius: 20px;
   width: 293px;
   height: 355px;
+  display: flex;
+  align-items: flex-end;
+}
+.text-cont {
+  width: 228px;
+  height: 77px;
+  background-color: rgba(131, 131, 128, 0.85);
+  border-bottom-right-radius: 20px; 
+  margin: 5px;
+}
+.text-cont > h5 {
+  margin: 5px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+.text-cont > p {
+  margin: 5px;
+  color: #fff;
+  font-size: 13px;
 }
 .main-top > #div2 {
     background-image: url('images/Picture-046410251500.jpg');;
     background-color: #f1f1f1;
-    margin: 10px;
+    border-bottom-right-radius: 10%;
     text-align: center;
     line-height: 75px;
-    font-size: 30px;
     width: 293px;
     height: 355px;
   }
   .main-top > #div3 {
     background-image: url('images/פזקר_-291_354410564000.jpg');;
     background-color: #f1f1f1;
-    margin: 10px;
+    border-bottom-right-radius: 10%;
     text-align: center;
     line-height: 75px;
-    font-size: 30px;
     width: 293px;
     height: 355px;
   }
-.main-bottom {
-    border: 1px solid rgb(255, 0, 170);
+
+  .main-bottom {
+    border: 1px solid rgb(25, 0, 255);
     display: flex;
     width: 900px;
-    justify-content: space-evenly;
-   
-}
-.main-bottom > div {
-    background-color: #f1f1f1;
-    width: 100px;
-    margin: 10px;
-    text-align: center;
-    line-height: 75px;
-    font-size: 30px;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+.main-bottom > #div4 {
+    background-image: url('images/cube_bg.png');
+    border-bottom-right-radius: 20px;
     width: 292px;
-    height: 216px;
+    height: 169px;
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .text-cont4 {
+    width: 228px;
+    height: 77px;
+    background-image: url('images/paz_250x110059890678.jpg');
+    margin: 5px;
+  }
+  #div4 > h5 {
+    margin: 5px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+  }
+
+  #div4 > img {
+    margin: 5px;
+  }
+  #div4 > p > a {
+    margin: 5px;
+    color: #fff;
+    font-size: 13px;
   }
   footer {
     width: 100%;
@@ -157,5 +190,4 @@ header {
   .facebook {
     bottom: 15px;
     margin-left: 2px;
-
 }
