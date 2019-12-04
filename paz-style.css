@@ -43,6 +43,35 @@ header {
     position: absolute;
     left: 0;
 }
+  
+nav {
+  font-size: 14px;
+  padding: 0 20px 0 20px;
+}
+
+nav > ul {
+  list-style: none;
+  padding: 0;
+  margin: auto;
+}
+
+
+nav > ul > li {
+  display: inline-block;
+}
+
+nav > ul > li > a {
+  display: block;
+  text-decoration: none;
+  color: rgb(220, 241, 98);
+  padding: 15px;
+  font-family: arial;
+  font-size: 14px;
+}
+  nav > ul > li > a:hover, .dropdown-content > a:hover {
+      background-color: rgb(8, 31, 46);
+    }
+
   .container {
     width: 900px;
     margin: auto;
