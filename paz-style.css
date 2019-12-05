@@ -24,6 +24,7 @@ header {
   text-align: center;
   position: relative;
   display: flex;
+
 }
 .logo {
   width: 142px;
@@ -38,33 +39,49 @@ header {
   height: 90px;
   flex-grow: 1;
   position: absolute;
-  left: 0; 
+  left: -30px; 
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
 }
-
-nav {
-font-size: 14px;
-position: absolute;
-top: 60px;
-left: 0px;
+.search {
+  width: 132px;
+  height: 19px;
+  position: relative;
+  right: 620px;
+  top: -30px;
+  display: flex;
+  background-image: url('images/search_input.png');
+  
 }
-
-nav > ul {
+.search > input {
+  width: 126px;
+  height: 14px;
+  border: none;
+}
+.search > button {
+  width: 19px;
+  height: 19px;
+  background-image: url('images/search_button.png');
+  border-left: none;
+  cursor: pointer;
+}
+ul {
 list-style: none;
 padding: 0;
+margin: 0;
 display: flex;
-justify-content: flex-start;
 }
-
-nav > ul > li {
+ul > li {
 display: inline-block;
 }
-
-nav > ul > li > .dropdown-content > a:hover {
+ul > li > .dropdown-content > a:hover {
     color: rgb(21, 98, 156);
     font-weight: bold;
   }
   .dropdown > a {
     position: relative;
+    top: 10px;
     display: inline-block;
     text-decoration: none;
     color: white;
@@ -75,8 +92,7 @@ nav > ul > li > .dropdown-content > a:hover {
     display: none;
     position: absolute;
     background-color: #999;
-    top: 45px;
-    
+    top: 105px;
   }
   .dropdown-content > a {
     display: block;
@@ -90,17 +106,20 @@ nav > ul > li > .dropdown-content > a:hover {
   .dropdown:hover .dropdown-content {
     display: block;
   }
+  
   .line-top {
     width: 4px;
     height: 21px;
     margin: 0 16px;
     position: relative;
-    bottom: 5px;
+    top: 6px;
     background-image: url('images/menu_sep.png');
   }
 
   .home-icon {
     margin:0 16px;
+    position: relative;
+    top: 6px;
   }
   .container {
     width: 900px;
