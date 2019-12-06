@@ -164,20 +164,23 @@ display: inline-block;
     margin-bottom: 4px;
     color: #5c5c5c;
     line-height: 32px;
-  
 }
 
 .main-top > .center-div {
+  
+  width: 440px;
+}
+
+.main-top > .center-div > .form {
     background-image: url('images/contact_form_bg.png');
-    width: 347px;
     width: 383px;
     height: 356px;
     display: flex;
     align-items: flex-end;
     padding: 12px 18px;
-    border-style: solid solid none solid;
-  
   }
+
+
   .main-top > .left-div {
     background-color: #f1f1f1;
     border-bottom-right-radius: 20px;
