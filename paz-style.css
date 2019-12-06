@@ -66,6 +66,15 @@ header {
   border-left: none;
   cursor: pointer;
 }
+.english {
+  font-size: 0.9em;
+  font-weight: bold;
+  color: #fff;
+  text-decoration: none;
+  position: relative;
+  right: 183px;
+  top: -12px;
+}
 ul {
 list-style: none;
 padding: 0;
@@ -75,10 +84,6 @@ display: flex;
 ul > li {
 display: inline-block;
 }
-ul > li > .dropdown-content > a:hover,  .dropdown:hover > a {
-    color: rgb(21, 98, 156);
-    font-weight: bold;
-  }
   .dropdown > a {
     position: relative;
     top: 10px;
@@ -180,17 +185,14 @@ ul > li > .dropdown-content > a:hover,  .dropdown:hover > a {
   color: #fff;
   font-size: 13px;
 }
-
 .white {
   text-decoration: none;
   font-size: 13px;
   color: white;
-  
 }
 .blue-arrow {
   margin-left: 5px;
 }
-
 .main-top > #div2 {
     background-image: url('images/Picture-046410251500.jpg');
     background-color: #f1f1f1;
