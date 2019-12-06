@@ -138,151 +138,55 @@ display: inline-block;
     position: relative;
     top: 6px;
   }
-  .container {
-    width: 900px;
-    margin: auto;
-    margin-top: 135px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
+
 .main-top {
     display: flex;
     width: 900px;
     justify-content: space-between;
+    margin: auto;
+    margin-top: 110px;
+    padding-top: 32px;
 }
 
-.main-top > #div1 {
-  background-image: url('images/1908364606615453350.JPG');
+.main-top > .right-div {
   background-color: #f1f1f1;
-  border-bottom-right-radius: 20px;
-  width: 293px;
-  height: 355px;
+  width: 122px;
+  height: 36px;
   display: flex;
   align-items: flex-end;
 }
-.text-cont {
-  width: 248px;
-  height: 97px;
-  background-color: rgba(131, 131, 128, 0.85);
-  border-bottom-right-radius: 20px; 
-  margin: 7px;
-}
-.text-cont > h5 {
-  margin: 5px;
-  color: #fff;
-  font-size: 14px;
-  font-weight: bold;
-}
-.text-cont > p {
-  margin: 5px;
-  color: #fff;
-  font-size: 13px;
-}
-.text-cont > div {
-  float: left;
-  color: #fff;
-  font-size: 13px;
-}
-.white {
-  text-decoration: none;
-  font-size: 13px;
-  color: white;
-}
-.blue-arrow {
-  margin-left: 5px;
-}
-.main-top > #div2 {
-    background-image: url('images/Picture-046410251500.jpg');
-    background-color: #f1f1f1;
-    border-bottom-right-radius: 20px;
-    width: 293px;
-    height: 355px;
-    display: flex;
-    align-items: flex-end;
-  }
-  .main-top > #div3 {
-    background-image: url('images/פזקר_-291_354410564000.jpg');
-    background-color: #f1f1f1;
-    border-bottom-right-radius: 20px;
-    width: 293px;
-    height: 355px;
-    display: flex;
-    align-items: flex-end;
-  }
-
-  .main-bottom {
-    display: flex;
-    width: 900px;
-    justify-content: space-between;
-    margin-top: 20px;
-  }
-
-.main-bottom > .bg-bottom {
-  background-image: url('images/small_cube_bg.png');
-  width: 292px;
-  height: 216px;
-  padding: 10px;
-}
-  .text-cont4 {
-    width: 228px;
-    height: 77px;
-    background-image: url('images/paz_250x110059890678.jpg');
-    margin: 5px;
-  }
-  .bg-bottom > h5 {
-    margin: 5px;
-    font-size: 14px;
-    font-weight: bold;
-    color: rgb(83, 82, 82);
-  }
-  .bg-bottom > div {
-    float: left;
-    margin-top: 20px;
-    }
-  #div6 {
-      float: left;
+.contact-right-cont {
+  width: 110px;
+    height: 36px;
+    overflow: hidden;
+    padding-right: 12px;
+    font-size: 13px;
+    margin-bottom: 4px;
+    color: #5c5c5c;
+    line-height: 32px;
   
-    }
+}
 
-  .bg-bottom > img {
-    margin: 7px;
+.main-top > .center-div {
+    background-image: url('images/contact_form_bg.png');
+    width: 347px;
+    width: 383px;
+    height: 356px;
+    display: flex;
+    align-items: flex-end;
+    padding: 12px 18px;
+    border-style: solid solid none solid;
+  
   }
-  .grey {
-    text-decoration: none;
-    font-size: 14px;
-    color: gray;
+  .main-top > .left-div {
+    background-color: #f1f1f1;
+    border-bottom-right-radius: 20px;
+    width: 293px;
+    height: 355px;
+    display: flex;
+    align-items: flex-end;
   }
-  .yellow-arrow {
-    margin-left: 10px;
-  }
-  .stations {
-    display: block;
 
-  }
-  .locations {
-    display: block;
-    position: relative;
-    left: 185px;
-  }
-  .locations > div {
-margin-bottom: 5px;
-  }
-    .map {
-      display: block;
-      position: relative;
-      left: 0;
-      bottom:75px;
-  }
-  .grey2 {
-    text-decoration: none;
-    font-size: 14px;
-    color: gray;
-  }
-  .yellow-arrow2 {
-    margin-left: 10px;
-  }
   footer {
     width: 100%;
     height: 38px;
