@@ -92,7 +92,15 @@ display: inline-block;
   color: white;
   font-size: 15px;
   font-weight: bold;
-  
+}
+.dropdown:hover > a {
+  position: relative;
+  top: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #00449C;
+  font-size: 15px;
+  font-weight: bold;
 }
 .dropdown-content {
   display: none;
@@ -116,6 +124,7 @@ display: inline-block;
 }
 .dropdown-content > a:hover {
   background-color:#BCBCBC;
+  color: #00449C;
 }
 .line-top {
   width: 4px;
@@ -165,12 +174,31 @@ display: inline-block;
     color: #5c5c5c;
     line-height: 32px;
 }
-
 .main-top > .center-div {
-  
   width: 440px;
 }
-
+.finder {
+  text-decoration: none;
+  font-size: 13px;
+  color: #5c5c5c;
+  margin-bottom: 20px;
+}
+.a-home {
+  text-decoration: none;
+  font-size: 13px;
+  color: #5c5c5c;
+}
+.a-home:hover {
+  color: #00449C;
+}
+h4 {
+    font-size: 15px;
+    font-weight: bold;
+    color: #5c5c5c;
+    border-bottom: 1px solid #cbcbcb;
+    margin-bottom: 12px;
+    padding-bottom: 4px;
+}
 .main-top > .center-div > .form {
     background-image: url('images/contact_form_bg.png');
     width: 383px;
@@ -179,7 +207,6 @@ display: inline-block;
     align-items: flex-end;
     padding: 12px 18px;
   }
-
 
   .main-top > .left-div {
     background-color: #f1f1f1;

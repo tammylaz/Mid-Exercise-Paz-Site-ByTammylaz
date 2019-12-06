@@ -94,6 +94,15 @@ display: inline-block;
   font-weight: bold;
   
 }
+.dropdown:hover > a {
+  position: relative;
+  top: 10px;
+  display: inline-block;
+  text-decoration: none;
+  color: #00449C;
+  font-size: 15px;
+  font-weight: bold;
+}
 .dropdown-content {
   display: none;
   position: absolute;
@@ -116,6 +125,7 @@ display: inline-block;
 }
 .dropdown-content > a:hover {
   background-color:#BCBCBC;
+  color: #00449C;
 }
 .line-top {
   width: 4px;
