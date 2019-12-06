@@ -74,9 +74,8 @@ display: flex;
 }
 ul > li {
 display: inline-block;
-
 }
-ul > li > .dropdown-content > a:hover {
+ul > li > .dropdown-content > a:hover,  .dropdown:hover > a {
     color: rgb(21, 98, 156);
     font-weight: bold;
   }
@@ -110,7 +109,9 @@ ul > li > .dropdown-content > a:hover {
   .dropdown:hover .dropdown-content {
     display: block;
   }
-  
+  .dropdown-content > a:hover {
+    background-color:#BCBCBC;
+  }
 .line-top {
   width: 4px;
   height: 21px;
