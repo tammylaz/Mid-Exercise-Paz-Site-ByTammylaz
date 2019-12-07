@@ -59,7 +59,7 @@ header {
   height: 14px;
   border: none;
 }
-.search > button {
+.search > .button-top {
   width: 19px;
   height: 19px;
   background-image: url('images/search_button.png');
@@ -200,7 +200,7 @@ h4 {
     padding-bottom: 4px;
 }
 
-form {
+.form {
     background-image: url('images/contact_form_bg.png');
     width: 383px;
     height: 356px;
@@ -234,7 +234,7 @@ form {
   color: #5c5c5c;
   padding: 3px;
 }
-button {
+.button-form {
   margin-right: 177px;
   border-top-right-radius:5px;
   background-image: linear-gradient(#0EA5E7, #025188);
